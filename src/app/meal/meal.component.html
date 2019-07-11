@@ -1,0 +1,34 @@
+<!-- <p>meal works!</p> -->
+<!-- {{form-meal}} -->
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-6">
+                        <app-form-meal></app-form-meal>
+                </div>
+                <div class="col-5">
+                        <app-meal-edit></app-meal-edit>    
+                 </div>
+            </div>
+            
+<hr size=8>
+<fieldset>
+    <legend>
+        Display List
+    </legend>
+    <div class="row"><p class="col-4">Meal</p><p class="col-4">Description</p><p class="col-4">Calorie</p></div>
+    <div><div class="row"><p class="col-4">{{name}}</p><p class="col-4">{{description}}</p><p class="col-4">{{calories}}</p></div>
+    </div>
+    <div class="row">
+            <div col-6><button>
+                    Delete
+                </button></div>
+                <div col-6><button>
+                        Edit
+                    </button></div>
+            
+            </div>
+    <hr size="15">
+</fieldset>
+</div>
+
+
